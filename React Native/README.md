@@ -25,3 +25,5 @@ Next, make sure the port on your host machine for forwarding requests to the vir
 That way, requests to localhost:8000 on your Android device are reverse proxy'd to port 8000 on your host machine. 
 Taking the port forwarding by Virtualbox into account, the localhost:8000 API calls on the React Native app will be 
 sent from port 8000 on the host machine to port 80 on the virtual machine.
+
+### 5. Add your Google API key in env.tsx
